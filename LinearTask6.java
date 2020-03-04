@@ -23,24 +23,22 @@ public class LinearTask6 {
 		yLimitMin = -3;
 		yLimitMax = 4;
 
-		@SuppressWarnings("resource")
-		Scanner sc = new Scanner(System.in);
-
-		System.out.print("Введите координату точки на оси x >>> ");
-		while (!sc.hasNextInt()) {
-			sc.next();
-			System.out.print("Введите координату точки на оси x >>> ");
-		}
-		x = sc.nextInt();
-
-		System.out.print("Введите координату точки на оси y >>> ");
-		while (!sc.hasNextInt()) {
-			sc.next();
-			System.out.print("Введите координату точки на оси y >>> ");
-		}
-		y = sc.nextInt();
-
+		x = inputFromConsole('x');
+		y = inputFromConsole('y');
+		
 		bulean = (x >= xLimitMin) && (x <= xLimitMax) && (y >= yLimitMin) && (y <= yLimitMax);
 		System.out.println("Координаты Вашей точки - x:" + x + ", y:" + y + ". Входит в окрашенную область: " + bulean);
+	}
+	
+	private static int inputFromConsole(char point) {
+		@SuppressWarnings("resource")
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Введите координату точки на оси " + point + " >>> ");
+		while (!sc.hasNextInt()) {
+			sc.next();
+			System.out.print("Введите координату точки на оси " + point + " >>> ");
+		}
+		return sc.nextInt();
 	}
 }
