@@ -1,12 +1,12 @@
-package jo_1_basics_of_code;
-
-import java.util.Scanner;
-
-/**
+/*
  * Для данной области составить линейную программу, которая печатает true, если
  * точка с координатами (х, у) принадлежит закрашенной области, и false — в
  * противном случае
  */
+package jo_1_basics_of_code;
+
+import java.util.Scanner;
+
 public class LinearTask6 {
 
 	public static void main(String[] args) {

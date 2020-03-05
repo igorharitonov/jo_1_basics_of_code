@@ -1,10 +1,10 @@
-package jo_1_basics_of_code;
-
-/**
+/*
  * Дано натуральное число Т, которое представляет длительность прошедшего
  * времени в секундах. Вывести данное значение длительности в часах, минутах и
  * секундах в следующей форме: ННч ММмин SSc.
  */
+package jo_1_basics_of_code;
+
 public class LinearTask5 {
 
 	public static void main(String[] args) {
@@ -16,7 +16,7 @@ public class LinearTask5 {
 		hour = 3600;
 		minute = 60;
 
-		hour = sec / hour; // Кол-во полных часов
+		hour = sec / hour;// Кол-во полных часов
 		sec -= hour * 3600;// Остаток в секундах
 		minute = sec / 60;// Кол-во полных минут
 		sec -= minute * 60;// Остаток в секундах

@@ -1,9 +1,9 @@
-package jo_1_basics_of_code;
-
-/**
+/*
  * Вычислить значение выражения по формуле (все переменные принимают
  * действительные значения)
  */
+package jo_1_basics_of_code;
+
 public class LinearTask2 {
 
 	public static void main(String[] args) {
