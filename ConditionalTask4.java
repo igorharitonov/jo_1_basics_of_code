@@ -1,9 +1,9 @@
-package jo_1_basics_of_code;
-
-/**
+/*
  * Заданы размеры А, В прямоугольного отверстия и размеры х, у, z кирпича.
  * Определить, пройдет ли кирпич через отверстие
  */
+package jo_1_basics_of_code;
+
 public class ConditionalTask4 {
 
 	public static void main(String[] args) {

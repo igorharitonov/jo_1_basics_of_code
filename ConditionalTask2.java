@@ -1,10 +1,10 @@
+/*
+ * Найти max{min(a, b), min(c, d)}
+ */
 package jo_1_basics_of_code;
 
 import java.util.Scanner;
 
-/**
- * Найти max{min(a, b), min(c, d)}
- */
 public class ConditionalTask2 {
 
 	public static void main(String[] args) {

@@ -1,9 +1,9 @@
-package jo_1_basics_of_code;
-
-/**
+/*
  * Вычислить значение функции Math.pow(x, 2) - 3x + 9, если x <= 3, и 1 /
  * (Math.pow(x, 3) + 6), если x >3
  */
+package jo_1_basics_of_code;
+
 public class ConditionalTask5 {
 
 	public static void main(String[] args) {
