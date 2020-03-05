@@ -1,10 +1,10 @@
-package jo_1_basics_of_code;
-
-/**
+/*
  * Даны числовой ряд и некоторое число е. Найти сумму тех членов ряда, модуль
  * которых больше или равен заданному е. Общий член ряда имеет вид a = 1 /
  * Mat.pow(2, n) + 1 / Math.pow(3, n)
  */
+package jo_1_basics_of_code;
+
 public class CycleTask5 {
 
 	public static void main(String[] args) {

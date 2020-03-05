@@ -1,8 +1,8 @@
-package jo_1_basics_of_code;
-
-/**
+/*
  * Найти сумму квадратов первых ста чисел
  */
+package jo_1_basics_of_code;
+
 public class CycleTask3 {
 
 	public static void main(String[] args) {
@@ -16,10 +16,7 @@ public class CycleTask3 {
 		pace = 20;
 		print = true;
 
-		/*
-		 * Рассчитываем сумму квадратов первых двухсот чисел, начиная от start с шагом
-		 * pace
-		 */
+		/* Рассчитываем сумму квадратов первых двухсот чисел, начиная от start с шагом pace */
 		for (int i = start, j = 0; j < 200; i += pace, j++) {
 			sum += Math.pow(i, 2);
 			if (sum == Integer.MAX_VALUE) {

@@ -1,9 +1,9 @@
-package jo_1_basics_of_code;
-
-/**
+/*
  * Даны два числа. Определить цифры, входящие в запись как первого так и второго
  * числа
  */
+package jo_1_basics_of_code;
+
 public class CycleTask8 {
 
 	public static void main(String[] args) {
@@ -18,14 +18,17 @@ public class CycleTask8 {
 
 		x1 = 1368977772;
 		y1 = -3.0679;
-		/** Преобразуем цифровые значения в String */
+		
+		/* Преобразуем цифровые значения в String */
 		x2 = String.valueOf(x1);
 		y2 = String.valueOf(y1);
-		/** Задаём длину массивов char */
+		
+		/* Инициализируем и задаём длину массивов char */
 		digitals1 = new char[x2.length()];
 		digitals2 = new char[y2.length()];
 		results = new boolean[x2.length()];
-		/** Передаём значения, полученные методом charsFromString, в массивы char */
+		
+		/* Передаём значения, полученные методом charsFromString, в массивы char */
 		digitals1 = charsFromString(x2);
 		digitals2 = charsFromString(y2);
 		
@@ -62,9 +65,7 @@ public class CycleTask8 {
 		}
 	}
 	
-	/**
-	 * Метод для преобразования строк с числами в массивы char
-	 */
+	/* Метод для преобразования строк с числами в массивы char */
 	private static char[] charsFromString(String str) {
 		char[] str2;
 

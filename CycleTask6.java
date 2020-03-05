@@ -1,15 +1,13 @@
-package jo_1_basics_of_code;
-
-/**
- * CODING UTF-8 Вывести на экран соответствий между символами и их
+/*
+ * Вывести на экран соответствий между символами и их
  * численными обозначениями в памяти компьютера
  */
+package jo_1_basics_of_code;
+
 public class CycleTask6 {
 
 	public static void main(String[] args) {
-		char sym; // Кодировка UTF-8
-
-		sym = 'я';
+		char sym;
 
 		System.out.println("|  Символ  |  Код  |");
 		for (int i = 33; i <= 1273; i++) {

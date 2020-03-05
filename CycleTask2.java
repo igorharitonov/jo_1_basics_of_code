@@ -1,8 +1,8 @@
-package jo_1_basics_of_code;
-
-/**
+/*
  * Вычислить значения функции на отрезке [а,b] c шагом h:
  */
+package jo_1_basics_of_code;
+
 public class CycleTask2 {
 
 	public static void main(String[] args) {
